@@ -1,20 +1,31 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
+
 package parimparr;
 
 /**
  *
- * @author MINEDUCYT
+ * @author Cristela Morales 
  */
+
+import java.util.Scanner;
 public class ParImparr {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("INGRESE UN NUMERO");
+        
+        int numero = teclado.nextInt();
+        
+        if (numero % 2 == 0){
+        System.out.println(numero + " es par");
+        }else { 
+            System.out.println(numero + " es impar");
+        }
+        
+        
     }
     
 }
