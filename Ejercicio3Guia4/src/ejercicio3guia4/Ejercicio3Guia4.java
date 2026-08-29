@@ -6,7 +6,7 @@ package ejercicio3guia4;
 
 /**
  *
- * @author MINEDUCYT
+ * @author cristela morales
  */
 import java.util.Scanner;
 public class Ejercicio3Guia4 {
